@@ -1,0 +1,26 @@
+{
+  "name": "fp-http-server",
+  "version": "1.0.0",
+  "description": "HTTP Server with Functional Programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -b && node dist/index.js",
+    "dev": "nodemon dist/index.js"
+  },
+  "author": "Cedomic",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.13.1",
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@marblejs/core": "^3.0.2",
+    "@marblejs/middleware-body": "^3.0.2",
+    "@marblejs/middleware-io": "^3.0.2",
+    "@marblejs/middleware-logger": "^3.0.2",
+    "fp-ts": "^2.5.3",
+    "rxjs": "^6.5.5"
+  }
+}
